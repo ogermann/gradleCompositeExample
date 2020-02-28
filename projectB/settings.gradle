@@ -1,0 +1,5 @@
+rootProject.name = 'projectB'
+
+println "$rootProject.name: $testProp"
+
+assert testProp == "beta"
